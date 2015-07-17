@@ -9,9 +9,6 @@ if (!process.env.CI) {
 		winBrightness.get(function (err, brightness) {
 			t.assert(!err, err);
 			t.assert(typeof brightness === 'number');
-			
-			console.log(brightness);
-			
 		});
 	});
 

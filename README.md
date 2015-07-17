@@ -25,6 +25,9 @@ winBrightness.set(0.75, function (err) {
 
 ```
 
+Based on [osx-brightness](https://github.com/gillstrom/osx-brightness) and [xdg-brightness](https://www.npmjs.com/package/xdg-brightness). Built to be used
+by [brightness](https://www.npmjs.com/package/brightness).
+
 ## License
 
 MIT © [Sondre Bjellås](http://sondreb.com)
