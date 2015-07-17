@@ -20,7 +20,7 @@ module.exports.get = function(cb) {
 	    namespace: '\\\\root\\WMI'
 	});
 	
-	wmi.query('SELECT * FROM WmiMonitorBrightness', function (err, result) {
+	wmi.query('SELECT CurrentBrightness,InstanceName FROM WmiMonitorBrightness', function (err, result) {
 		
 		if (err) {
 			cb(err);
