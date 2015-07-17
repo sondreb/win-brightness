@@ -1,0 +1,36 @@
+{
+  "name": "win-brightness",
+  "version": "1.0.0",
+  "description": "Get or set screen brightness in Windows",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sondreb/win-brightness.git"
+  },
+  "keywords": [
+    "win",
+    "windows",
+    "brightness",
+    "screen"
+  ],
+  "author": {
+    "name": "Sondre Bjellås",
+    "email": "sondre@outlook.com",
+    "url": "sondreb.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sondreb/win-brightness/issues"
+  },
+  "homepage": "https://github.com/sondreb/win-brightness",
+  "dependencies": {
+    "nircmd": "^1.1.1",
+    "wmi-client": "0.1.4"
+  },
+  "devDependencies": {
+    "ava": "^0.0.4"
+  }
+}
